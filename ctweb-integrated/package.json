@@ -6,7 +6,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "ctWebDev": "echo 'welcome to ct WebDev inside npm script'"
+    "ctWebDev": "echo 'welcome to ct WebDev inside npm script'",
+    "dep-graph": "nx dep-graph --port=6000"
   },
   "private": true,
   "dependencies": {
@@ -18,7 +19,6 @@
     "@angular/platform-browser": "~14.2.0",
     "@angular/platform-browser-dynamic": "~14.2.0",
     "@angular/router": "~14.2.0",
-    "@nrwl/angular": "^15.0.11",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -31,11 +31,14 @@
     "@angular/cli": "~14.2.0",
     "@angular/compiler-cli": "~14.2.0",
     "@angular/language-service": "~14.2.0",
+    "@nrwl/angular": "^15.0.11",
     "@nrwl/cli": "15.0.10",
     "@nrwl/cypress": "15.0.11",
     "@nrwl/eslint-plugin-nx": "15.0.11",
     "@nrwl/jest": "15.0.11",
     "@nrwl/linter": "15.0.11",
+    "@nrwl/react": "^15.0.12",
+    "@nrwl/web": "^15.0.12",
     "@nrwl/workspace": "15.0.10",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",

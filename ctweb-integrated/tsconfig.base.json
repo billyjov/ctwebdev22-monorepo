@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ctweb-integrated/lib-1-a": ["libs/lib-1-a/src/index.ts"],
+      "@ctweb-integrated/lib2a": ["libs/lib2a/src/index.ts"],
+      "@ctweb-integrated/lib3web": ["libs/lib3web/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
