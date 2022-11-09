@@ -90,7 +90,7 @@
       "options": {
         "commands": [
           {
-            "command": "echo 'Welcome to Ct'Webdev 2022'",
+            "command": "echo 'Welcome to Ct'Webdev 2022 {args.name}'",
             "color": "blue",
             "bgColor": "bgGreen"
           }

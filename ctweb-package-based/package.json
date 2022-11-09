@@ -2,10 +2,11 @@
   "name": "ctweb-package-based",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nrwl/workspace": "^15.0.13",
     "nx": "15.0.10",
     "prettier": "^2.6.2"
   },
